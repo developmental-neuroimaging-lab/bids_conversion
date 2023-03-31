@@ -1,0 +1,107 @@
+ {
+   "descriptions": [
+      {
+         "dataType": "dwi",
+         "modalityLabel": "dwi",
+         "customLabels": "acq-b750",
+         "criteria": {
+            "SeriesDescription": "SSE DTI 2.2mm 30dir b0750 Special grad table"
+         }
+      },  
+      {
+         "dataType": "dwi",
+         "modalityLabel": "dwi",
+         "customLabels": "acq-b2000",
+         "criteria": {
+            "SeriesDescription": "SSE DTI 2.2mm 30dir b2000 Special grad table"
+         }
+      },
+      {
+         "dataType": "anat",
+         "modalityLabel": "T1w",
+         "criteria": {
+            "SeriesDescription": "Ax FSPGR BRAVO 0.9mm ART"
+         }
+      },
+      {
+         "dataType": "anat",
+         "modalityLabel": "T1w",
+         "customLabels": "rec-PURE",
+         "criteria": {
+            "SeriesDescription": "PU:Ax FSPGR BRAVO 0.9mm ART"
+         }
+      },
+      {
+         "dataType": "anat",
+         "modalityLabel": "ihMT",
+         "criteria": {
+            "SeriesDescription": "SAG IHMT"
+         }
+      },
+      {
+         "dataType": "anat",
+         "modalityLabel": "ihMT",
+         "customLabels": "rec-MTR",
+         "criteria": {
+           "SeriesDescription": "SAG IHMT: MTR"
+         }
+       },
+       {
+         "dataType": "anat",
+         "modalityLabel": "ihMT",
+         "customLabels": "rec-ihMT",
+         "criteria": {
+           "SeriesDescription": "SAG IHMT: qMT"
+         }
+       },
+       {
+         "dataType": "anat",
+         "modalityLabel": "ihMT",
+         "customLabels": "rec-ihMTR",
+         "criteria": {
+           "SeriesDescription": "SAG IHMT: IHMTR"
+         }
+       },
+       {
+         "dataType": "anat",
+         "modalityLabel": "ihMT",
+         "customLabels": "rec-qihMT",
+         "criteria": {
+           "SeriesDescription": "SAG IHMT: qIHMT"
+         }
+       },
+      {
+        "dataType": "perf",
+        "modalityLabel": "asl",
+        "criteria": {
+           "SeriesDescription": "*3D ASL*"
+        }
+     },
+     {
+      "dataType": "perf",
+      "modalityLabel": "asl",
+      "customLabels": "rec-CBF",
+      "criteria": {
+        "SeriesDescription": "*Cerebral Blood Flow*"
+      }
+    },
+      {
+         "dataType": "anat",
+         "modalityLabel": "T2w",
+         "criteria": {
+            "SeriesDescription": "*T2 Anatomical*"
+         }
+      },
+      {
+         "dataType": "func",
+         "modalityLabel": "bold",
+         "customLabels": "task-rest",
+         "criteria": {
+            "SeriesDescription": "*fMRI RESTING STATE*"
+         },
+         "sidecarChanges": {
+            "TaskName": "rest"
+         }
+      }
+   ]
+}
