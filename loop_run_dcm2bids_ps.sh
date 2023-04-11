@@ -5,8 +5,9 @@
 # col2=session ID (no "ses-")
 # script by Meaghan Perdue, April 2023
 
-subjects=ps_subs.txt
+subjects=ps_ses01.txt
 
 while read i; do
     sh run_dcm2bids_ps.sh ${i}
+    echo ${i} >> ps_subs_done.txt
     done <"$subjects"
