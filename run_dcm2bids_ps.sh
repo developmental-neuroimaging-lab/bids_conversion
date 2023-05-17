@@ -5,8 +5,8 @@
 # change directories and config files to use for other studies
 # script by Meaghan Perdue, April 2023
 
-export dicom_dir=/Volumes/catherine_team/DataSortedForBIDS/PS-Sorted
-export bids_dir=/Volumes/catherine_team/Project_Folders/Preschool/preschool_bids
+export dicom_dir=/Volumes/catherine_team/DataSortedForBIDS/1_Dicoms/PS-Sorted
+export bids_dir=/Volumes/catherine_team/DataSortedForBIDS/2_BIDS_Datasets/preschool
 export config=/Volumes/catherine_team/DataSortedForBIDS/bids_conversion/preschool_config.json
 
 dcm2bids --forceDcm2niix --clobber \
