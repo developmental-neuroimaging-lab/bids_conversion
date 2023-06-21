@@ -1,0 +1,100 @@
+{
+    "descriptions": [
+       {
+          "dataType": "dwi",
+          "modalityLabel": "dwi",
+          "customLabels": "acq-b900",
+          "criteria": {
+             "SeriesDescription": "*b900*"
+          }
+       },  
+       {
+        "dataType": "dwi",
+        "modalityLabel": "dwi",
+        "customLabels": "acq-RPE",
+        "criteria": {
+           "SeriesDescription": "*1dir RPE*"
+        }
+     },
+       {
+          "dataType": "dwi",
+          "modalityLabel": "dwi",
+          "customLabels": "acq-b2000",
+          "criteria": {
+             "SeriesDescription": "*b2000*"
+          }
+       },
+       {
+         "dataType": "anat",
+         "modalityLabel": "T2w",
+         "criteria": {
+            "SeriesDescription": "*T2 Anatomical*"
+         }
+      },
+      {
+         "dataType": "func",
+         "modalityLabel": "bold",
+         "customLabels": "task-rest",
+         "criteria": {
+            "SeriesDescription": "*RESTING STATE*"
+         },
+         "sidecarChanges": {
+            "TaskName": "rest"
+         }
+      },
+       {
+          "dataType": "anat",
+          "modalityLabel": "ihMT",
+          "criteria": {
+             "SeriesDescription": " IHMT RAGE 2.2mm"
+          }
+       },
+       {
+          "dataType": "anat",
+          "modalityLabel": "ihMT",
+          "customLabels": "rec-MTR",
+          "criteria": {
+            "SeriesDescription": "IHMT RAGE 2.2mm: MTR"
+          }
+        },
+        {
+          "dataType": "anat",
+          "modalityLabel": "ihMT",
+          "customLabels": "rec-ihMT",
+          "criteria": {
+            "SeriesDescription": "*qMT"
+          }
+        },
+        {
+          "dataType": "anat",
+          "modalityLabel": "ihMT",
+          "customLabels": "rec-ihMTR",
+          "criteria": {
+            "SeriesDescription": "*IHMTR"
+          }
+        },
+        {
+          "dataType": "anat",
+          "modalityLabel": "ihMT",
+          "customLabels": "rec-qihMT",
+          "criteria": {
+            "SeriesDescription": "*qIHMT"
+          }
+        },
+       {
+         "dataType": "perf",
+         "modalityLabel": "asl",
+         "criteria": {
+            "SeriesDescription": "3D ASL*"
+         }
+      },
+      {
+       "dataType": "perf",
+       "modalityLabel": "asl",
+       "customLabels": "rec-CBF",
+       "criteria": {
+         "SeriesDescription": "*CBF*"
+       }
+     }
+    ]
+ }
