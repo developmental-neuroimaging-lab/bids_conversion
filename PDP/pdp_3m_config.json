@@ -1,0 +1,130 @@
+ {
+   "descriptions": [
+      {
+         "dataType": "dwi",
+         "modalityLabel": "dwi",
+         "customLabels": "acq-b700",
+         "criteria": {
+            "SeriesDescription": "*SSE DTI 2.2mm 30dir b0700*"
+         }
+      },  
+      {
+         "dataType": "dwi",
+         "modalityLabel": "dwi",
+         "customLabels": "acq-b2000",
+         "criteria": {
+            "SeriesDescription": "*SSE DTI 2.2mm 30dir b2000*"
+         }
+      },
+      {
+         "dataType": "anat",
+         "modalityLabel": "T1w",
+         "criteria": {
+            "SeriesDescription": "MODIFIED T1*"
+         }
+      },
+      {
+         "dataType": "anat",
+         "modalityLabel": "T1w",
+         "customLabels": "rec-PURE",
+         "criteria": {
+            "SeriesDescription": "PU:MODIFIED T1*"
+         }
+      },
+      {
+         "dataType": "anat",
+         "modalityLabel": "T1w",
+         "customLabels": "acq-altT1",
+         "criteria": {
+            "SeriesDescription": "ALTERNATE T1 - USE IF FOV TOO SMALL"
+         }
+      },
+      {
+         "dataType": "anat",
+         "modalityLabel": "ihMT",
+         "criteria": {
+            "SeriesDescription": "IHMT RAGE 2.0mm - optional"
+         }
+      },
+      {
+         "dataType": "anat",
+         "modalityLabel": "ihMT",
+         "customLabels": "rec-MTR",
+         "criteria": {
+           "SeriesDescription": "IHMT RAGE 2.0mm - optional: MTR"
+         }
+       },
+       {
+         "dataType": "anat",
+         "modalityLabel": "ihMT",
+         "customLabels": "rec-qMT",
+         "criteria": {
+           "SeriesDescription": "IHMT RAGE 2.0mm - optional: qMT"
+         }
+       },
+       {
+         "dataType": "anat",
+         "modalityLabel": "ihMT",
+         "customLabels": "rec-ihMTR",
+         "criteria": {
+           "SeriesDescription": "IHMT RAGE 2.0mm - optional: IHMTR"
+         }
+       },
+       {
+         "dataType": "anat",
+         "modalityLabel": "ihMT",
+         "customLabels": "rec-qihMT",
+         "criteria": {
+           "SeriesDescription": "IHMT RAGE 2.0mm - optional: qIHMT"
+         }
+       },
+      {
+        "dataType": "perf",
+        "modalityLabel": "asl",
+        "criteria": {
+           "SeriesDescription": "*3D ASL*"
+        }
+     },
+     {
+      "dataType": "perf",
+      "modalityLabel": "asl",
+      "customLabels": "rec-CBF",
+      "criteria": {
+        "SeriesDescription": "*Cerebral Blood Flow*"
+      }
+    },
+      {
+         "dataType": "anat",
+         "modalityLabel": "T2w",
+         "criteria": {
+            "SeriesDescription": "*MODIFIED T2*"
+         }
+      },
+      {
+         "dataType": "func",
+         "modalityLabel": "bold",
+         "customLabels": "task-rest",
+         "criteria": {
+            "SeriesDescription": "*fMRI RESTING STATE*"
+         },
+         "sidecarChanges": {
+            "TaskName": "rest"
+         }
+      },
+      {
+         "dataType": "perf",
+         "modalityLabel": "swan",
+         "criteria": {
+           "SeriesDescription": "AXIAL SWAN"
+         }
+       },
+      {
+         "dataType": "perf",
+         "modalityLabel": "swan",
+		   "customLabels": "rec-SWAN",
+         "criteria": {
+            "SeriesDescription": "*FILT_PHA: AXIAL SWAN*"
+         }
+      }
+   ]
+}
