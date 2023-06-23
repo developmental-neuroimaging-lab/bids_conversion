@@ -6,7 +6,7 @@
 # script by Meaghan Perdue, April 2023
 
 export dicom_dir=/Volumes/catherine_team/MRI_Data/1_Dicoms_for_BIDS_Conversion/PS-Sorted
-export bids_dir=/Volumes/catherine_team/MRI_Data/2_BIDS_Datasets/preschool
+export bids_dir=/Volumes/BIDS/CL_Preschool
 export config=/Volumes/catherine_team/MRI_Data/bids_conversion/preschool/preschool_config.json
 
 dcm2bids --forceDcm2niix --clobber \
